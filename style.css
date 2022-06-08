@@ -9,3 +9,12 @@ h1 {
     justify-content: center;
     color:chartreuse;
 }
+
+.GuessLetters {
+    text-decoration: underline;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 50%;
+}
