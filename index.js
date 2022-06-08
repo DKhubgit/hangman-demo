@@ -1,8 +1,17 @@
 // Hello 
 
-//Timer
-var timer = document.getElementById('');
-setTimeout(timer, 5000);
+// Timer
+function timer(){
+    var sec = 10;
+    var timer = setInterval(function(){
+        document.getElementById('timerDisplay').innerHTML='00:'+sec;
+        sec--;
+        if (sec < 0) {
+            clearInterval(timer);
+        }
+    }, 1000);
+}
+
 // Variables
 
 const blankWord = document.getElementById('word');
