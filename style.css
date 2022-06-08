@@ -1,8 +1,11 @@
 body {
     height: 100%;
     width: 100%;
+    background-color: cornflowerblue;
 }
 
-header {
-    
+h1 {
+    display: flex;
+    justify-content: center;
+    color:chartreuse;
 }
